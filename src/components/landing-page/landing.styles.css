@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+  }
+  .svg-top-right {
+    animation-name:scale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow: hidden;
+  
+  }
+  .svg-bot-left {
+    animation-name:scale;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: cubic-bezier(0.41, 0.73, 0.71, 0.31);
+    overflow: hidden;
+  
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(2);
+    }
+    
+  }
+  
+  main {
+    background-color: #f5f7fb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .centered-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: #293264;
+  }
+  .start-button {
+    width: 200px;
+    height: 50px;
+    background-color: #4d5b9e;
+    color: #f5f7fb;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s cubic-bezier(0.76, -0.43, 0.14, 2.3);
+  }
+  .start-button:hover {
+    width: 210px;
+    height: 70px;
+    font-size: 15px;
+  }
+  
