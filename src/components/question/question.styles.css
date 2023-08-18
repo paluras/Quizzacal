@@ -26,3 +26,15 @@
     width: 100%;
     height: 1px;
 }
+/* .selected{
+    background-color: blue;
+} */
+
+.correct {
+    background-color: #94D7A2;
+  }
+  
+  .incorrect {
+    background-color: #F8BCBC;
+    color:#576199 ;
+  }

@@ -11,7 +11,7 @@ function Landing(props:Landing) {
     <>
       <div className="centered-container">
         <h1 className="tittle">Quizzical</h1>
-        <p className="intro-description">Some Description if needed</p>
+        <p className="intro-description">Answer Random Questions</p>
         <button onClick={props.handleQuiz} className="start-button">Start quiz</button>
       </div>
     </>
